@@ -1,9 +1,11 @@
 import React from "react";
+import { Button } from '@material-ui/core';
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello world</h1>
+        <span>Ola meu NexJs</span>
+        <Button color="Primary" variant="contained">Primary</Button>
     </div>
   );
 }
