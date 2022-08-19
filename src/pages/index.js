@@ -1,11 +1,16 @@
 import React from "react";
-import { Button } from '@material-ui/core';
+import { Button } from "@material-ui/core";
+import Layout from "../components/Layout/index";
+
 
 export default function Home() {
   return (
-    <div>
-        <span>Ola meu NexJs</span>
-        <Button color="Primary" variant="contained">Primary</Button>
-    </div>
+    <Layout title="YouTube">
+        Meu app YouTube clone manoooo ta ligado truta
+      <Button  color="primary" variant="contained">
+        Primary
+      </Button>
+      <h1>aisdawoidji</h1>
+    </Layout>
   );
 }
